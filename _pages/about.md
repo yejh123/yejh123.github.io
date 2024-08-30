@@ -17,6 +17,7 @@ My research focuses on Grammatical Error Correction (GEC), LLM-based Agent, and 
 
 {% include_relative includes/pub.md %}
 
-{% include_relative includes/honoers.md %}
+{% include_relative includes/honers.md %}
 
 {% include_relative includes/others.md %}
+
