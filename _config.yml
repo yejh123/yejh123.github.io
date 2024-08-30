@@ -21,14 +21,14 @@ repository               : "yejh123/yejh123.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_2024.png"
   name             : "Jingheng Ye (叶劲亨)"
   pronouns         : # example: "she/her"  
   bio              : "Master in Tsinghua University. Focusing on NLP, Agent and Education"
   location         : "China"
   employer         : "Tsinghua University"
   uri              : # URL
-  email            : "jinghengye123@gmail.org" 
+  email            : "jinghengye123@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

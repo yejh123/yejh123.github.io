@@ -1,7 +1,7 @@
 
 # 📖 Educations
-- *2022.06 - 2025.04*, Master, Tsinghua University, Shenzhen.
-- *2018.09 - 2022.06*, Undergraduate, South China Univeristy of Technology (SCUT), Guangdong.
+- *2022.06 - 2025.04*, Master in Computer Science and Technology, Tsinghua University, Shenzhen, China.
+- *2018.09 - 2022.06*, Bachelor in Computer Science and Technology, South China Univeristy of Technology (SCUT), Guangzhou, China.
 
 
 # 💻 Internships
