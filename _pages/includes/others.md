@@ -5,5 +5,6 @@
 
 
 # 💻 Internships
+- *2024.09 - Present*, Squirrel AI
 - *2023.12 - 2024.08*, Alibaba.
 - *2021.07 - 2021.09*, Tencent.
