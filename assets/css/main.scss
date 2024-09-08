@@ -44,7 +44,10 @@
 }
 
 .page__content {
-    h2 {
-      margin-top: 0.5em;
-    }
+  h2 {
+    margin-top: 0.5em;
+  }
+  p, li, dl {
+    font-size: 0.8em;
+  }
 }

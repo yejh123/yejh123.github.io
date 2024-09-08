@@ -29,7 +29,7 @@
 # main links
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "/"
 
   - title: "News"
     url: "/#-news"
