@@ -1,5 +1,5 @@
 # 📝 Publications (* denotes co-first authors)
-## &nbsp &nbsp 📚 Text Correction
+## &nbsp;&nbsp; 📚 Text Correction
 
 ``EMNLP 2023`` [![](https://img.shields.io/github/stars/THUKElab/CLEME?style=social&label=Code+Stars)](https://github.com/THUKElab/CLEME)
 [CLEME: Debiasing Multi-reference Evaluation for Grammatical Error Correction](https://aclanthology.org/2023.emnlp-main.378/)  
@@ -23,7 +23,7 @@ Haojing Huang\*, **Jingheng Ye**\*, Qingyu Zhou, et al.
 Yinghui Li, Shang Qin, **Jingheng Ye**, et al.
 
 
-## &nbsp &nbsp 🤖 LLM-based Agent
+## &nbsp;&nbsp; 🤖 LLM-based Agent
 
 [ProductAgent: Benchmarking Conversational Product Search Agent with Asking Clarification Questions](https://arxiv.org/pdf/2407.00942)  
 **Jingheng Ye**, Yong Jiang, Xiaobin Wang, et al.
