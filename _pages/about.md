@@ -11,8 +11,8 @@ Currently, I am pursuing a three-year master's degree at Tsinghua University [TH
 
 My research focuses on natural language processing (NLP) and machine learning (ML).  
 To be more specific, my research interests lie in:  
- - **Text Correction & Education**: Correcting and explaining grammatical errors espcially for primary schoolers and second-language learners.
- - **LLM-based Agent**: Explorations of the reasonning and clarifying capabilities and applications in complex scenarios.
+ - **Text Correction & Education**: Correcting and explaining grammatical errors, especially for primary schoolers and second-language learners.
+ - **LLM-based Agent**: Explorations of the reasoning and clarifying capabilities and applications in complex scenarios.
 
 **I am looking for a Ph.D position now**. You can find my CV here: [Jingheng Ye's Curriculum Vitae](../files/CV-Jingheng Ye-20240907.pdf).
 
