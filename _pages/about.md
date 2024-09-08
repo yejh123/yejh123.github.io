@@ -20,7 +20,7 @@ To be more specific, my research interests lie in:
 <!-- Include other info -->
 {% include_relative includes/news.md %}
 
-{% include_relative includes/pub.md %}
+{% include_relative includes/publications.md %}
 
 {% include_relative includes/honers.md %}
 
