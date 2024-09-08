@@ -1,5 +1,4 @@
 # 📝 Publications 
-* denotes co-first authors
 
 ## &nbsp;📚 Text Correction
 
