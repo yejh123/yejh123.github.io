@@ -1,5 +1,5 @@
 # 🥇 Honors and Awards
-- National Encouragement Scholarship
+- *2024.12* National Scholarship (Master)
 - *2023.12* First class special scholarship at the college level
 - *2021.12* Fist class scholarship at the school level
 - *2020.12* National Encouragement Scholarship
