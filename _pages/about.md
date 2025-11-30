@@ -11,7 +11,7 @@ I am a first-year Ph.D. student in Computer Engineering at **Northeastern Univer
 
 My research centers on building *reliable* and *trustworthy* LLM Agents. Currently, my research interests lie in:
 
-- **Agent Safety & Evaluation**: Detecting and benchmarking unsafe behaviors in LLM agents, specifically assessing the risks posed to **Human-AI Collaboration** in high-stakes scenarios (e.g., Code Sabotage).
+- **Agent Safety & Evaluation**: Detecting and benchmarking unsafe behaviors in LLM agents, specifically assessing the risks posed to **Human-AI Collaboration** in high-stakes scenarios.
 - **Reliable & Aligned Agents**: Developing frameworks to build agents that are robust, aligned with human intent, and capable of complex reasoning and planning.
 - **Personalized AI**: Designing agents that adapt to individual user needs and contexts, such as clarifying user intent in real-world tasks or providing tailored pedagogical feedback in education.
 

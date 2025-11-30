@@ -15,7 +15,7 @@
 
 # 🥇 Honors and Awards
 
-- **2025.06** Outstanding Graduate of Beijing
+- **2025.06** Outstanding Graduate of Beijing (Top 1%)
 - **2024.12** National Scholarship (Top 0.2%)
 - **2023.08** CCL23-Eval CLTC Track-1, Second Prize
 - **2022.10** CCL22-Eval CLTC Task-4, First Prize
