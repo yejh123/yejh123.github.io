@@ -2,8 +2,7 @@
 
 <!-- ## &nbsp;📚 Text Correction -->
 
-``EMNLP 2025`` [![](https://img.shields.io/github/stars/THUKElab/CLEME?style=social&label=Code+Stars)](https://github.com/THUKElab/CLEME)
-[Position: LLMs Can be Good Tutors in English Education](https://aclanthology.org/2025.emnlp-main.885/)  
+``EMNLP 2025`` [Position: LLMs Can be Good Tutors in English Education](https://aclanthology.org/2025.emnlp-main.885/)  
 **Jingheng Ye**, Shen Wang, Deqing Zou, et al.
 
 ``EMNLP 2025`` [ProductAgent: Benchmarking Conversational Product Search Agent with Asking Clarification Questions](https://aclanthology.org/2025.emnlp-industry.25/)  
