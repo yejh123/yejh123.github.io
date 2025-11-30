@@ -7,14 +7,14 @@
 # 💻 Experience
 
 - **Northeastern University**, Boston, MA
-  - *Research Assistant* | Sep 2025 - Present
-  - Advisor: Prof. Weiyan Shi. Focus: Code Sabotage & Agent Safety.
+  - *Research Assistant*, Sep 2025 - Present
+  - Advisor: Prof. [Weiyan Shi](https://wyshi.github.io/). Focus: Code Sabotage & Agent Safety.
 - **Squirrel AI**, Shanghai, China
-  - *Research Intern* | Aug 2024 - Jun 2025
-  - Advisor: Dr. [Qingsong Wen](https://sites.google.com/site/qingsongwen8/) Topic: AI Education.
+  - *Research Intern*, Aug 2024 - Jun 2025
+  - Advisor: Dr. [Qingsong Wen](https://sites.google.com/site/qingsongwen8/). Topic: AI Education.
 - **Alibaba (Tongyi Lab)**, Hangzhou, China
-  - *Research Intern* | Dec 2023 - Aug 2024
+  - *Research Intern*, Dec 2023 - Aug 2024
   - Advisor: Dr. [Yong Jiang](https://jiangyong.site/). Topic: LLM Agents.
 - **Tencent**, Shenzhen, China
-  - *Software Engineering Intern* | Jul 2021 - Sep 2021
+  - *Software Engineering Intern*, Jul 2021 - Sep 2021
   - Topic: Database System Testing (TDSQL).

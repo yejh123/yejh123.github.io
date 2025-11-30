@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**I am currently looking for Research Intern positions for Summer 2026.**. You can find my CV here: [Jingheng Ye's Curriculum Vitae](../files/CV-Jingheng Ye.pdf).
-
-I am a first-year Ph.D. student in Computer Science at **Northeastern University (NEU)**, advised by Prof. [Weiyan Shi](https://wyshi.github.io/) at the [CHATS Lab](https://wyshi.github.io/group.html). Prior to NEU, I obtained my M.S. in Computer Science from **Tsinghua University** in 2025, where I was a member of the [THUKE Lab](https://github.com/THUKElab) advised by Prof. [Hai-Tao Zheng](https://scholar.google.com/citations?user=7VPeORoAAAAJ&hl=zh-CN). I received my B.S. from **South China University of Technology** in 2022.
+I am a first-year Ph.D. student in Computer Engineering at **Northeastern University (NEU)**, advised by Prof. [Weiyan Shi](https://wyshi.github.io/) at the [CHATS Lab](https://wyshi.github.io/group.html). Prior to NEU, I obtained my M.S. in Computer Science from **Tsinghua University** in 2025, where I was a member of the [THUKE Lab](https://github.com/THUKElab) advised by Prof. [Hai-Tao Zheng](https://scholar.google.com/citations?user=7VPeORoAAAAJ&hl=zh-CN). I received my B.S. from **South China University of Technology** in 2022.
 
 My research centers on building *reliable* and *trusted* LLM Agents. Currently, my research interests lie in:
 
