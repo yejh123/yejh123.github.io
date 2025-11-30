@@ -22,7 +22,7 @@
 **Jingheng Ye**\*, Yinghui Li\*, Qingyu Zhou, et al.
 
 ``EMNLP 2023`` [![](https://img.shields.io/github/stars/THUKElab/MixEdit?style=social&label=Code+Stars)](https://github.com/THUKElab/MixEdit)
-[Mixedit: Revisiting data augmentation and beyond for grammatical error correction](https://aclanthology.org/2023.findings-emnlp.681/)  
+[MixEdit: Revisiting data augmentation and beyond for grammatical error correction](https://aclanthology.org/2023.findings-emnlp.681/)  
 **Jingheng Ye**, Yinghui Li, Yangning Li, et al.
 
 ``EMNLP 2023`` [![](https://img.shields.io/github/stars/THUKElab/DR-CSC?style=social&label=Code+Stars)](https://github.com/THUKElab/DR-CSC)
