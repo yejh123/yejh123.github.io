@@ -29,7 +29,6 @@ sass:
 
 exclude:
   - AGENTS.md
-  - CLAUDE.md
   - README.md
   - LICENSE
   - Gemfile
