@@ -3,18 +3,16 @@
 <ul class="publication-list">
   {%- for publication in site.data.publications %}
   <li class="publication">
-    <span class="publication__venue">{{ publication.venue }}</span>
-    <div>
-      <h3 class="publication__title">{{ publication.title }}</h3>
-      <div>{{ publication.authors | replace: site.author.name, highlighted_author }}</div>
-      {%- if publication.award %}
-      <div class="publication__award">🏆 {{ publication.award }}</div>
-      {%- endif %}
-      <div>
-        <a href="{{ publication.url }}">Paper</a>
-        {%- if publication.code %} / <a href="https://github.com/{{ publication.code }}">Code</a>{% endif %}
-        {%- if publication.project %} / <a href="{{ publication.project }}">Project</a>{% endif %}
-      </div>
+    <h3 class="publication__title">{{ publication.title }}</h3>
+    <div class="publication__authors">{{ publication.authors | replace: site.author.name, highlighted_author }}</div>
+    {%- if publication.award %}
+    <div class="publication__award">{{ publication.award }}</div>
+    {%- endif %}
+    <div class="publication__meta">
+      <span class="publication__venue">{{ publication.venue }}</span>
+      <a href="{{ publication.url }}">Paper</a>
+      {%- if publication.code %} / <a href="https://github.com/{{ publication.code }}">Code</a>{% endif %}
+      {%- if publication.project %} / <a href="{{ publication.project }}">Project</a>{% endif %}
     </div>
   </li>
   {%- endfor %}
