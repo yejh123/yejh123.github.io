@@ -1,0 +1,11 @@
+# Newest first. Quote dates, since YAML reads 2024.10 as the number 2024.1.
+- date: "2025.09"
+  text: 🎓 Started my Ph.D. journey at Northeastern University!
+- date: "2025.09"
+  text: 🎉 Two papers accepted to EMNLP 2025 (one Industry Track, one Main Conference).
+- date: "2025.05"
+  text: 🎉 One paper accepted to ACL 2025 (CLEME 2.0).
+- date: "2024.12"
+  text: 🎉 EXCGEC is accepted by AAAI 2025 (Oral).
+- date: "2024.12"
+  text: 🏅 Awarded the National Scholarship.

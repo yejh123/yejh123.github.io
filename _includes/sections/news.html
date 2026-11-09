@@ -1,0 +1,5 @@
+<ul>
+  {%- for news_entry in site.data.news %}
+  <li><em>{{ news_entry.date }}</em>: {{ news_entry.text }}</li>
+  {%- endfor %}
+</ul>

@@ -1,0 +1,10 @@
+<ul>
+  {%- for position in site.data.experience %}
+  <li><strong>{{ position.organization }}</strong>, {{ position.location }}
+    <ul>
+      <li><em>{{ position.role }}</em>, {{ position.period }}</li>
+      <li>{{ position.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    </ul>
+  </li>
+  {%- endfor %}
+</ul>

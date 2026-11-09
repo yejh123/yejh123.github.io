@@ -1,0 +1,13 @@
+# Homepage sections in display order. Each id names its template in _includes/sections/.
+- id: news
+  title: 🔥 News
+  nav_title: News
+- id: publications
+  title: 📝 Selected Publications
+  nav_title: Publications
+- id: experience
+  title: 💻 Experience
+  nav_title: Experience
+- id: honors
+  title: 🥇 Honors and Awards
+  nav_title: Honors and Awards

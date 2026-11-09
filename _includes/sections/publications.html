@@ -1,0 +1,6 @@
+{%- assign highlighted_author = site.author.name | prepend: "<strong>" | append: "</strong>" -%}
+{%- for publication in site.data.publications %}
+<p><code>{{ publication.venue }}</code> {% if publication.code %}<a href="https://github.com/{{ publication.code }}"><img src="https://img.shields.io/github/stars/{{ publication.code }}?style=social&amp;label=Code+Stars" alt="GitHub stars"></a>
+{% endif %}<a href="{{ publication.url }}">{{ publication.title }}</a><br>
+{{ publication.authors | replace: site.author.name, highlighted_author }}</p>
+{%- endfor %}

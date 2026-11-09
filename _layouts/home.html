@@ -21,6 +21,10 @@ layout: compress
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
             {{ content }}
+            {%- for section in site.data.sections %}
+            <h1 id="{{ section.id }}">{{ section.title }}</h1>
+            {% include sections/{{ section.id }}.html %}
+            {%- endfor %}
           </section>
         </div>
       </article>
