@@ -30,7 +30,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $nav-color;
+    color: $muted-color;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 
@@ -98,7 +98,7 @@
   height: 100%;
   padding: 0 0.5rem;
   border: 0;
-  background-color: $nav-color;
+  background-color: $muted-color;
   cursor: pointer;
 }
 

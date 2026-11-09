@@ -1,10 +1,12 @@
-<ul>
+<ul class="experience-list">
   {%- for position in site.data.experience %}
-  <li><strong>{{ position.organization }}</strong>, {{ position.location }}
-    <ul>
-      <li><em>{{ position.role }}</em>, {{ position.period }}</li>
-      <li>{{ position.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
-    </ul>
+  <li class="position">
+    <div class="position__header">
+      <span><strong>{{ position.organization }}</strong>, {{ position.location }}</span>
+      <span class="position__period">{{ position.period }}</span>
+    </div>
+    <div class="position__role">{{ position.role }}</div>
+    {{ position.details | markdownify }}
   </li>
   {%- endfor %}
 </ul>

@@ -24,8 +24,8 @@ Where each kind of content lives:
 1. Edit the file above, keeping entries newest first.
 2. Quote dates such as `"2024.10"`, since YAML reads an unquoted `2024.10` as the number 2024.1.
 3. For a publication, write `authors` as plain text. The site author's name is bolded automatically, and `*` marks equal contribution.
-4. Add `code: owner/repo` to a publication to show its GitHub star badge.
-5. Write experience `details` in inline Markdown, so links work there.
+4. Give a publication `code: owner/repo` or `project: URL` to add Code or Project links, and `award` to add an award line.
+5. Write news and honors `text` and experience `details` in inline Markdown, so links work there.
 6. Replace the CV or photo in place under the same file name, so links never change. Keep the photo square, about 400 px.
 7. Preview the result with the `preview-site` skill.
 

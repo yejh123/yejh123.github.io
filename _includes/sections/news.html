@@ -1,5 +1,16 @@
-<ul>
-  {%- for news_entry in site.data.news %}
-  <li><em>{{ news_entry.date }}</em>: {{ news_entry.text }}</li>
+{%- assign visible_count = 5 -%}
+<ul class="dated-list">
+  {%- for news_entry in site.data.news limit: visible_count %}
+  {% include dated-item.html date=news_entry.date text=news_entry.text %}
   {%- endfor %}
 </ul>
+{%- if site.data.news.size > visible_count %}
+<details>
+  <summary>More news</summary>
+  <ul class="dated-list">
+    {%- for news_entry in site.data.news offset: visible_count %}
+    {% include dated-item.html date=news_entry.date text=news_entry.text %}
+    {%- endfor %}
+  </ul>
+</details>
+{%- endif %}

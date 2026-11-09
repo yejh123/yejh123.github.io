@@ -1,15 +1,26 @@
 # Newest first. The site author's name in `authors` is bolded automatically.
-# `code` is an optional GitHub repository that adds a star badge.
+# Optional: `code` (GitHub owner/repo), `project` (URL), and `award` (text).
+- venue: NeurIPS 2026
+  title: "Coding with the Enemy: Can Human Developers Detect AI Agent Sabotage?"
+  url: https://arxiv.org/abs/2606.05647
+  code: CHATS-lab/coding-agent-safety-monitor
+  project: https://coding-with-enemy.github.io/
+  award: Best Paper Award, DL4C @ ICML 2026
+  authors: Jingheng Ye*, Huiqi Zou*, Simon Yu, Weiyan Shi
+- venue: ACL 2026
+  title: "CL²GEC: A Multi-Discipline Benchmark for Continual Learning in Chinese Literature Grammatical Error Correction"
+  url: https://arxiv.org/abs/2509.13672
+  authors: Shang Qin, Jingheng Ye, Yinghui Li, et al.
 - venue: EMNLP 2025
   title: "Position: LLMs Can be Good Tutors in English Education"
   url: https://aclanthology.org/2025.emnlp-main.885/
   authors: Jingheng Ye, Shen Wang, Deqing Zou, et al.
-- venue: EMNLP 2025
+- venue: EMNLP 2025 Industry
   title: "ProductAgent: Benchmarking Conversational Product Search Agent with Asking Clarification Questions"
   url: https://aclanthology.org/2025.emnlp-industry.25/
   authors: Jingheng Ye, Yong Jiang, Xiaobin Wang, et al.
 - venue: AAAI 2025 Oral
-  title: "EXCGEC: A Benchmark of Edit-wise Explainable Chinese Grammatical Error Correction"
+  title: "EXCGEC: A Benchmark for Edit-Wise Explainable Chinese Grammatical Error Correction"
   url: https://ojs.aaai.org/index.php/AAAI/article/view/34759
   code: THUKElab/EXCGEC
   authors: Jingheng Ye*, Shang Qin*, Yinghui Li, et al.
@@ -23,12 +34,12 @@
   url: https://aclanthology.org/2023.emnlp-main.378/
   code: THUKElab/CLEME
   authors: Jingheng Ye*, Yinghui Li*, Qingyu Zhou, et al.
-- venue: EMNLP 2023
+- venue: EMNLP 2023 Findings
   title: "MixEdit: Revisiting Data Augmentation and Beyond for Grammatical Error Correction"
   url: https://aclanthology.org/2023.findings-emnlp.681/
   code: THUKElab/MixEdit
   authors: Jingheng Ye, Yinghui Li, Yangning Li, et al.
-- venue: EMNLP 2023
+- venue: EMNLP 2023 Findings
   title: A Frustratingly Easy Plug-and-Play Detection-and-Reasoning Module for Chinese Spelling Check
   url: https://aclanthology.org/2023.findings-emnlp.771/
   code: THUKElab/DR-CSC

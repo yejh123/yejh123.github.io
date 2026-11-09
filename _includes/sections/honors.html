@@ -1,5 +1,5 @@
-<ul>
+<ul class="dated-list">
   {%- for honor in site.data.honors %}
-  <li><strong>{{ honor.date }}</strong> {{ honor.title }}</li>
+  {% include dated-item.html date=honor.date text=honor.text %}
   {%- endfor %}
 </ul>

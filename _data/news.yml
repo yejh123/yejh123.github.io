@@ -1,4 +1,10 @@
-# Newest first. Quote dates, since YAML reads 2024.10 as the number 2024.1.
+# Newest first. `text` accepts inline Markdown. Quote dates, since YAML reads 2024.10 as the number 2024.1.
+- date: "2026.09"
+  text: 🎉 [Coding with the Enemy](https://coding-with-enemy.github.io/) accepted to NeurIPS 2026!
+- date: "2026.07"
+  text: 🏆 [Coding with the Enemy](https://coding-with-enemy.github.io/) won the Best Paper Award at the DL4C Workshop @ ICML 2026.
+- date: "2026.05"
+  text: 🎉 Three papers accepted to ACL 2026 (two Main, one Findings).
 - date: "2025.09"
   text: 🎓 Started my Ph.D. journey at Northeastern University!
 - date: "2025.09"

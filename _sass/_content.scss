@@ -1,28 +1,109 @@
-.content {
-  h2 {
-    margin: 1em 0 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 1.4em;
-    line-height: 1.2;
-    border-bottom: 1px solid $border-color;
-    // Keep headings clear of the sticky masthead when jumping to an anchor.
-    scroll-margin-top: 4rem;
+.content h2 {
+  margin: 1em 0 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.4em;
+  line-height: 1.2;
+  border-bottom: 1px solid $border-color;
+  // Keep headings clear of the sticky masthead when jumping to an anchor.
+  scroll-margin-top: 4rem;
+}
+
+.dated-list,
+.publication-list,
+.experience-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.dated-list {
+  li {
+    display: grid;
+    grid-template-columns: 4.5em minmax(0, 1fr);
   }
 
-  img {
-    transition: box-shadow 0.2s ease-in-out;
-  }
-
-  a:hover img {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+  p {
+    margin: 0;
   }
 }
 
-.venue {
+.dated-list__date,
+.position__period,
+.section-note,
+.content summary {
+  color: $muted-color;
+}
+
+.content summary {
+  cursor: pointer;
+}
+
+.publication {
+  margin-bottom: 1em;
+
+  @media (min-width: $medium) {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 1em;
+    align-items: start;
+  }
+}
+
+.publication__venue {
+  display: inline-block;
+  margin-bottom: 0.25em;
   padding: 0.1rem 0.4em;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.85em;
   background: #fafafa;
   border: 1px solid $border-color;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(#000, 0.125);
+
+  // A fixed width keeps titles aligned; longer venues wrap to a second line.
+  @media (min-width: $medium) {
+    box-sizing: content-box;
+    width: 12ch;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+.publication__title {
+  margin: 0;
+  font-size: 1em;
+  line-height: inherit;
+}
+
+.publication__award {
+  color: #b03a2e;
+  font-weight: bold;
+}
+
+.position {
+  margin-bottom: 1em;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Narrow screens stack the period under the organization; wide screens align it right.
+.position__header {
+  @media (min-width: $medium) {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+  }
+}
+
+.position__period {
+  display: block;
+}
+
+.position__role {
+  font-style: italic;
+}
+
+.section-note {
+  font-size: 0.9em;
 }
