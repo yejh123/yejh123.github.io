@@ -1,0 +1,20 @@
+{%- comment -%}
+Wide screens show the details list; narrow screens show only the icon row.
+{%- endcomment -%}
+{%- assign author = site.author -%}
+<aside class="profile">
+  <img class="profile__avatar" src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+  <h1 class="profile__name">{{ author.name }}</h1>
+  <ul class="profile__details">
+    <li class="profile__description">{{ site.description }}</li>
+    <li>{% include icons/map-marker.svg %} {{ author.location }}</li>
+    {%- for link in author.links %}
+    <li><a href="{{ link.url }}">{% include icons/{{ link.icon }}.svg %} {{ link.label }}</a></li>
+    {%- endfor %}
+  </ul>
+  <div class="profile__icons">
+    {%- for link in author.links %}
+    <a href="{{ link.url }}" aria-label="{{ link.label }}">{% include icons/{{ link.icon }}.svg %}</a>
+    {%- endfor %}
+  </div>
+</aside>

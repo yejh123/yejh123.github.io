@@ -1,144 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+title: Jingheng Ye
+tagline: Homepage
+description: PhD student in Computer Engineering at Northeastern University.
+url: https://yejh123.github.io
+# Turn off the Primer theme that GitHub Pages applies by default.
+theme: null
 
-# Site Settings
-title                    : "Jingheng Ye"
-description              : "PhD student in Computer Engineering at Northeastern University."
-repository               : "yejh123/yejh123.github.io"
-
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
-# Site Author
 author:
-  name             : "Jingheng Ye"
-  avatar           : "images/profile_2024.png"
-  bio              :
-  location         : "Boston, MA, USA"
-  email            : "jingheng.cs@gmail.com" 
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=Zm_L_EUAAAAJ"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "yejh123" # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name: Jingheng Ye
+  avatar: /images/profile.jpg
+  location: Boston, MA, USA
+  # Each icon names a file in _includes/icons/.
+  links:
+    - label: Email
+      icon: envelope
+      url: mailto:jingheng.cs@gmail.com
+    - label: Github
+      icon: github
+      url: https://github.com/yejh123
+    - label: Google Scholar
+      icon: graduation-cap
+      url: https://scholar.google.com/citations?user=Zm_L_EUAAAAJ
 
-
-# Reading Files
-exclude:
-  - docs
-  - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+  - jekyll-seo-tag
 
+sass:
+  style: compressed
 
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - docs
+  - vendor

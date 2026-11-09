@@ -1,16 +1,18 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for section in site.data.sections %}
-            <li class="masthead__menu-item"><a href="/#{{ section.id }}">{{ section.nav_title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+{%- comment -%}
+Links that do not fit move into the overflow list, see assets/js/main.js.
+target="_self" keeps in-page links from opening a new tab under <base target="_blank">.
+{%- endcomment -%}
+<header class="masthead">
+  <div class="masthead__inner">
+    <nav class="site-nav">
+      <button class="site-nav__toggle" type="button" aria-label="More links" aria-expanded="false"><span class="navicon"></span></button>
+      <ul class="site-nav__links">
+        <li class="site-nav__home"><a href="#" target="_self">Homepage</a></li>
+        {%- for section in site.data.sections %}
+        <li><a href="#{{ section.id }}" target="_self">{{ section.nav_title }}</a></li>
+        {%- endfor %}
+      </ul>
+      <ul class="site-nav__overflow" hidden></ul>
+    </nav>
   </div>
-</div>
+</header>

@@ -1,0 +1,17 @@
+.layout {
+  max-width: $large;
+  margin: 1em auto 0;
+  padding: 0 1em;
+  animation: fade-in 0.3s 0.35s both;
+
+  @media (min-width: $large) {
+    display: grid;
+    grid-template-columns: 15.2542% minmax(0, 1fr);
+    column-gap: 5.9322%;
+    align-items: start;
+  }
+
+  @media (min-width: $x-large) {
+    max-width: $x-large;
+  }
+}
